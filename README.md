@@ -1,7 +1,7 @@
 # Machine-Learning-For-Credit-Scoring
 TER Project, M1, Alexandre BONICEL, Gabriel OLLIER, Lucas BLANCHETON
 
-Session 1:
+Session 1 (02/03/22):
 
 We create a GitHub repository to share our work.
 
@@ -9,7 +9,7 @@ We choose our dataset on Kaggle: https://www.kaggle.com/devanshi23/loan-data-200
 It is a Dataset on different mortgage in the USA.
 
 
-Session 2:
+Session 2 (09/03/22):
 
 First, we open the data and check for the base rate. In our model we will have 7 different outputs (A,B,C,D,E,F,G) so we expect a base rate of about 0.14 (1/7). Our current base rate is 0.17 and mostly the minimum rate is 0.01 for G. Our Dataset is not balanced so we need to change that.
 
