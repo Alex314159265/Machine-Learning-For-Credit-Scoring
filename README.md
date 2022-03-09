@@ -3,7 +3,11 @@ TER Project, M1, Alexandre BONICEL, Gabriel OLLIER, Lucas BLANCHETON
 
 Session 1:
 
-To completed (gab)
+We create a GitHub repository to share our work.
+
+We choose our dataset on Kaggle: https://www.kaggle.com/devanshi23/loan-data-2007-2014 .
+It is a Dataset on different mortgage in the USA.
+
 
 Session 2:
 
@@ -13,3 +17,7 @@ There are 3322 observations for G so if we delete enough observations in the oth
 It is the strategy that we think to do.
 
 We search for a function to randomly errase observations in our overrepresented groups.
+
+Notes :
+
+We are not sure to remove the attribute 'title'
