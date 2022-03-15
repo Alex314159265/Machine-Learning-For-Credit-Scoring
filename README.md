@@ -34,6 +34,9 @@ To deal with that problem, we delete rows ten by ten (about 15 min).
 After that we concatenate the 7 new dataframes and we get one new balanced dataset.
 Finally we dowload our new dataset so we can take it next time without running the 15 min code.
 
+We used some resources:
+https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
+https://www.delftstack.com/fr/howto/python-pandas/split-pandas-dataframe/
 
 
 
