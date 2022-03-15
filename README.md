@@ -1,12 +1,14 @@
 # Machine-Learning-For-Credit-Scoring
 TER Project, M1, Alexandre BONICEL, Gabriel OLLIER, Lucas BLANCHETON
 
+
 Session 1 (02/03/22):
 
 We create a GitHub repository to share our work.
 
 We choose our dataset on Kaggle: https://www.kaggle.com/devanshi23/loan-data-2007-2014 .
 It is a Dataset on different mortgage in the USA.
+
 
 
 Session 2 (09/03/22):
@@ -17,6 +19,12 @@ There are 3322 observations for G so if we delete enough observations in the oth
 It is the strategy that we think to do.
 
 We search for a function to randomly errase observations in our overrepresented groups.
+
+
+Session 3 (15/03/22):
+
+To begin with we want to remove the missing values. We tried to remove every rows with at least a missing value but it deleted the whole dataset. We decided to chage the strategy by deleting columns with missing value. It let us to easily remove many parameters which seemed .
+
 
 Notes :
 
