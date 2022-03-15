@@ -23,7 +23,18 @@ We search for a function to randomly errase observations in our overrepresented 
 
 Session 3 (15/03/22):
 
-To begin with we want to remove the missing values. We tried to remove every rows with at least a missing value but it deleted the whole dataset. We decided to chage the strategy by deleting columns with missing value. It let us to easily remove many parameters which seemed .
+To begin with we want to remove the missing values:
+We tried to remove every rows with at least a missing value but it deleted the whole dataset. We decided to change the strategy by deleting columns with missing value. It is 'less professional' but it is an easy way to remove many parameters which seemed useless while keeping the same number of observations.
+
+Then we balance the dataset:
+There are many way to achieve that and we choose to do it randomly. Our idea is to randomly delete enough observations for each grade to balance the dataset.
+To do it we split our dataset into 7 datasets, one for each group. Then we randomly erase the richt number for each grade (our target is to get about 3322 rows for each grade). 
+It is very long to run when we delete rows one by one (about 3h).
+To deal with that problem, we delete rows ten by ten (about 15 min).
+After that we concatenate the 7 new dataframes and we get one new balanced dataset.
+Finally we dowload our new dataset so we can take it next time without running the 15 min code.
+
+
 
 
 Notes :
