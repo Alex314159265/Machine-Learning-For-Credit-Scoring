@@ -38,7 +38,14 @@ We used some resources:
 https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
 https://www.delftstack.com/fr/howto/python-pandas/split-pandas-dataframe/
 
+### Session 4 (20/03/22)
 
+We created the latex report on overleaf. We did the structure of the report, the introduction, the team and the data presentation. 
+
+We did a qualitative study of the parameters. The idea is to delete parameters which are useless but it is only for those we can predict it before doing a correlation study. It can be because of their nature (member id carries no information for the grades) or because of their quality (title is a sentence written by the borrower, it is not usable for a regression).
+We wrote that part in the report and we did the code on Python.
+
+We discussed about the way we dealt with missing values and we want to change that to keep more usefull parameters.
 
 Notes :
 
