@@ -47,6 +47,10 @@ We wrote that part in the report and we did the code on Python.
 
 We discussed about the way we dealt with missing values and we want to change that to keep more usefull parameters.
 
+
+
+
+
 Notes :
 
 We are not sure to remove the attribute 'title'
