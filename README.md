@@ -60,6 +60,4 @@ We began to do the correlation matrix for the quantitative study of our features
 
 
 
-Notes :
 
-We are not sure to remove the attribute 'title'
