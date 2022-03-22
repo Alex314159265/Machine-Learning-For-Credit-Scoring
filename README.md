@@ -47,7 +47,16 @@ We wrote that part in the report and we did the code on Python.
 
 We discussed about the way we dealt with missing values and we want to change that to keep more usefull parameters.
 
+### Session 5 (22/03/22)
 
+we dealt with missing values. First we deleted columns with more than 10% of missing values. Then we droped rows with missing values. That process let us to keep more columns without leaving too many features.
+We explained that part in the report.
+
+We dealt with dates to change their form. Then we began to explain the process in the report.
+
+We also explain how we balanced the dataset in the report.
+
+We began to do the correlation matrix for the quantitative study of our features.
 
 
 
