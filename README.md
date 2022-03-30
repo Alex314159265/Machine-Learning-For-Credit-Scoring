@@ -58,6 +58,13 @@ We also explain how we balanced the dataset in the report.
 
 We began to do the correlation matrix for the quantitative study of our features.
 
+### Session 6 (30/03/22)
+
+We changed the structure of the report according to what Jiao Yind told us. It is less technical and more explcative. The technical part is now in the annex part. We began to write the new parts.
+
+We continued the data cleaning.
+
+
 
 
 
