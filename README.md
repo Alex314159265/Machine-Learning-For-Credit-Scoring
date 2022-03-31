@@ -64,7 +64,22 @@ We changed the structure of the report according to what Jiao Yind told us. It i
 
 We continued the data cleaning.
 
+### Session 7 (31/03/22)
 
+We finished the data cleaning. We did the Khi2 test for the categorical values and the correlation test for the numerical values. The goal was to remove every correlated values. We also factorized categorical values and normalized numerical values.
+
+Then we prepare the cleaned data set for the classification. We splitted it in two parts : the train set and the test set.
+
+We did four classification methods :
+
+- logistic classification
+- KNN classification (we found the best parameters)
+- decision tree classification (we found the best depth)
+- random forest classification
+
+For each classification we computed the accuracy plotted the confusion matrix.
+
+Finally we plotted the accuracies to compare the methods, we concluded that random forest is the best method.
 
 
 
