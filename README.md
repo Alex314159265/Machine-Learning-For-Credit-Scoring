@@ -38,7 +38,7 @@ We used some resources:
 https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
 https://www.delftstack.com/fr/howto/python-pandas/split-pandas-dataframe/
 
-### Session 4 (20/03/22)
+### Session 4 (20/03/22):
 
 We created the latex report on overleaf. We did the structure of the report, the introduction, the team and the data presentation. 
 
@@ -47,7 +47,7 @@ We wrote that part in the report and we did the code on Python.
 
 We discussed about the way we dealt with missing values and we want to change that to keep more usefull parameters.
 
-### Session 5 (22/03/22)
+### Session 5 (22/03/22):
 
 we dealt with missing values. First we deleted columns with more than 10% of missing values. Then we droped rows with missing values. That process let us to keep more columns without leaving too many features.
 We explained that part in the report.
@@ -58,13 +58,13 @@ We also explain how we balanced the dataset in the report.
 
 We began to do the correlation matrix for the quantitative study of our features.
 
-### Session 6 (30/03/22)
+### Session 6 (30/03/22):
 
 We changed the structure of the report according to what Jiao Yind told us. It is less technical and more explcative. The technical part is now in the annex part. We began to write the new parts.
 
 We continued the data cleaning.
 
-### Session 7 (31/03/22)
+### Session 7 (31/03/22):
 
 We finished the data cleaning. We did the Khi2 test for the categorical values and the correlation test for the numerical values. The goal was to remove every correlated values. We also factorized categorical values and normalized numerical values.
 
@@ -81,5 +81,11 @@ For each classification we computed the accuracy plotted the confusion matrix.
 
 Finally we plotted the accuracies to compare the methods, we concluded that random forest is the best method.
 
+### Session 8 (04/04/22):
 
+We had an accuracy too high for decision tree and random forest (more than 90%). It shew a problem in our models. We found a perfectly correlated variable (interest rate). We removed it otherwise our model was cheated. We did the classifications again and we found our best accuracy of 48% for random forest. It is more realistic for a 7 labels model.
+
+### Session 9 (05/04/22):
+
+We seriously do the report. It should be finished soon!
 
